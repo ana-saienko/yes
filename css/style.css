@@ -751,6 +751,10 @@ textarea.input {
     position: relative;
 }
 
+.links--bottom {
+    margin-bottom: 100px;
+}
+
 .links__link-left {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
@@ -1883,7 +1887,7 @@ body.ie ._ibg img {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-evenly;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1891,6 +1895,10 @@ body.ie ._ibg img {
 
 .contact__links span {
     margin-right: 85px;
+}
+
+.contact {
+    text-align: center;
 }
 
 .contact__links a {
